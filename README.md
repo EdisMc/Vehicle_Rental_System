@@ -4,23 +4,7 @@
 The project aims to design a simple yet functional vehicle rental system that manages the rental and return processes of different types of vehicles. The system calculates rental and insurance costs based on specific business rules and generates an invoice for the customer.
 
 ## Project Structure
-The project is organized into several packages, each serving a specific purpose:
-
-vehicle-rental-system/
-├── src/
-│ ├── main/
-│ │ └── Main.java
-│ ├── model/
-│ │ ├── Car.java
-│ │ ├── CargoVan.java
-│ │ ├── Motorcycle.java
-│ │ ├── Rental.java
-│ │ └── Vehicle.java
-│ ├── service/
-│ │ └── Invoice.java
-│ └── util/
-│ └── DateUtil.java
-└── README.md
+The project is organized into several packages, each serving a specific purpose.
 
 ### Packages
 - `main`: Contains the `Main.java` file which initializes the program with test data and generates invoices;
